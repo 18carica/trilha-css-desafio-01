@@ -1,0 +1,139 @@
+/* Importa um arquivo CSS de reset para garantir uma base consistente entre navegadores */
+@import url('reset.css');
+
+/* Define o estilo do corpo do documento */
+body {
+  background-color: black; /* Define a cor de fundo do corpo */
+}
+
+/* Define o estilo dos títulos de nível 2 */
+h2 {
+  font-size: 2rem; /* Define o tamanho da fonte */
+  color: #33A8DB; /* Define a cor do texto */
+  font-weight: bold; /* Define o peso da fonte */
+  letter-spacing: 4px; /* Define o espaçamento entre letras */
+  text-transform: uppercase; /* Transforma o texto em maiúsculas */
+  margin-bottom: 24px; /* Define a margem inferior */
+}
+
+/* Define o estilo dos parágrafos */
+p {
+  color: white; /* Define a cor do texto */
+}
+
+/* Define o estilo das seções */
+section {
+  margin: 100px auto; /* Define as margens */
+}
+
+/* Define o estilo do banner */
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png'); /* Define a imagem de fundo */
+  background-size: cover; /* Define o modo de exibição da imagem de fundo */
+  background-repeat: no-repeat; /* Define a repetição da imagem de fundo */
+  height: 600px; /* Define a altura */
+  padding-top: 60px; /* Define o preenchimento superior */
+  border-bottom: 1px solid #33A8DB80; /* Define a borda inferior */
+}
+
+/* Define o estilo do conteúdo do banner */
+.banner .banner-content {
+  color: white; /* Define a cor do texto */
+  width: 600px; /* Define a largura */
+  margin: auto; /* Centraliza horizontalmente */
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Define o estilo do título do banner */
+.banner h1 {
+  font-size: 2.5rem; /* Define o tamanho da fonte */
+  font-weight: 900; /* Define o peso da fonte */
+  text-transform: uppercase; /* Transforma o texto em maiúsculas */
+  color: transparent; /* Define a cor do texto como transparente */
+  background: -webkit-linear-gradient(#33A8DB, #1472B7); /* Define um fundo gradient para o texto */
+  background-clip: text; /* Define a área de clip para o fundo */
+  -webkit-background-clip: text; /* Define a área de clip para o fundo no Webkit */
+}
+
+/* Define o estilo dos parágrafos do banner */
+.banner p {
+  font-size: 1.25rem; /* Define o tamanho da fonte */
+  margin: 16px 0 24px; /* Define as margens */
+}
+
+/* Define o estilo do logotipo do banner */
+.banner .logo {
+  background-color: rgba(0, 0, 0, .2); /* Define a cor de fundo */
+  height: 260px; /* Define a altura */
+  width: 260px; /* Define a largura */
+  margin: auto; /* Centraliza horizontalmente */
+  border-radius: 50%; /* Define o raio da borda */
+  padding: 16px; /* Define o preenchimento */
+  margin-bottom: 16px; /* Define a margem inferior */
+}
+
+/* Define o estilo da imagem do logotipo do banner */
+.banner .logo img {
+  margin: auto; /* Centraliza horizontalmente */
+  width: 100%; /* Define a largura */
+  height: 100%; /* Define a altura */
+  object-fit: contain; /* Define como a imagem deve se ajustar ao elemento */
+}
+
+/* Define o estilo do botão do banner */
+.banner .banner-content button {
+  color: #31A8DD; /* Define a cor do texto */
+  font-size: 1rem; /* Define o tamanho da fonte */
+  font-weight: bold; /* Define o peso da fonte */
+  padding: 16px 32px; /* Define o preenchimento */
+  text-transform: uppercase; /* Transforma o texto em maiúsculas */
+  letter-spacing: 4px; /* Define o espaçamento entre letras */
+  background-color: transparent; /* Define a cor de fundo transparente */
+  border-image: linear-gradient(#3BA1CD, #1572B7); /* Define uma borda gradient */
+  border-image-slice: 10; /* Define a fatia da borda gradient */
+  border-radius: 30px; /* Define o raio da borda */
+}
+
+/* Define o estilo do conteúdo do curso */
+#course-content {
+  width: 800px; /* Define a largura */
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Define o estilo da lista de módulos do curso */
+#course-content .modules-list {
+  margin: 24px 0; /* Define as margens */
+}
+
+/* Define o estilo de cada módulo da lista de módulos do curso */
+#course-content .modules-list .module {
+  color: white; /* Define a cor do texto */
+  width: 530px; /* Define a largura */
+  margin: 0 auto 24px; /* Define as margens */
+  border: 1px solid #33A8DB; /* Define a borda */
+  background-color: #252525; /* Define a cor de fundo */
+  padding: 16px; /* Define o preenchimento */
+  border-radius: 100px; /* Define o raio da borda */
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7); /* Define a sombra */
+}
+
+/* Define o estilo do span dentro de cada módulo da lista de módulos do curso */
+#course-content .modules-list .module span {
+  color: #33A8DB; /* Define a cor do texto */
+}
+
+/* Define o estilo da seção de transformar o mundo */
+#transform-world {
+  height: 560px; /* Define a altura */
+  background-size: cover; /* Define o modo de exibição da imagem de fundo */
+  background-image: url("../images/woman-code.png"); /* Define a imagem de fundo */
+  background-attachment: fixed; /* Define a fixação da imagem de fundo */
+  border-top: 1px solid #33A8DB80; /* Define a borda superior */
+  border-bottom: 1px solid #33A8DB80; /* Define a borda inferior */
+  padding: 200px; /* Define o preenchimento */
+}
+
+/* Define o estilo dos parágrafos da seção de transformar o mundo */
+#transform-world p {
+  font-weight: 900; /* Define o peso da fonte */
+  font-size: 2.5rem; /* Define o

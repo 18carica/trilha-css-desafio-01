@@ -1,0 +1,9 @@
+/* Importa a fonte Raleway do Google Fonts com diferentes pesos */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+/* Define um estilo para todos os elementos */
+* {
+  font-family: 'Raleway', sans-serif; /* Define a fonte padrão para todos os elementos como Raleway */
+  box-sizing: border-box; /* Define o modelo de caixa para incluir preenchimento e borda no tamanho total */
+  margin: 0; /* Remove todas as margens dos elementos */
+}
